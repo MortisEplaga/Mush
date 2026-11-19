@@ -9,6 +9,7 @@
 - [Спектры пропускания спикул стеклянных губок](https://www.researchgate.net/publication/231110979_Optical_fibres_based_on_natural_biological_minerals_-_Sea_sponge_spicules)
 - [Спецификация кварцевого волокна SM400](https://www.thorlabs.com/single-mode-fcpc-fiber-optic-patch-cables)
 - [Отражатель и линза светового органа *Euprymna scolopes*](https://pmc.ncbi.nlm.nih.gov/articles/PMC1772794/)
+- [Полые капиллярные волноводы: масштабирование потерь λ²/a³](https://www.rp-photonics.com/hollow_core_fibers_and_capillaries.html)
 
 ## Ризоморфы и минерализация
 
@@ -20,6 +21,7 @@
 - [Разборка клеточных органелл в гифах *Aspergillus oryzae*](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0015650)
 - [Закрытие септальных пор тельцами Воронина](https://onlinelibrary.wiley.com/doi/full/10.1111/mmi.12077)
 - [Септальные поры базидиомицетов](https://journals.asm.org/doi/10.1128/mbio.00111-15)
+- [Гидрофобины на границе воздух–вода](https://pmc.ncbi.nlm.nih.gov/articles/PMC4929970/)
 
 ## Излучение и фоторецепция
 
