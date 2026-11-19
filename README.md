@@ -1,9 +1,10 @@
 # Mush
 
-Грибница с оптической сигнальной сетью: фотогифы, узлы, распределённое обучение и предсказание.
+Грибница с оптической сигнальной сетью: фотогифы, полые магистрали, ассоциативные камеры, распределённое обучение и предсказание.
 
-- [docs/README.md](docs/README.md) — содержание
-- [docs/01-svetovye-kanaly.md](docs/01-svetovye-kanaly.md) — устройство каналов и полосы передачи
-- [docs/02-organizaciya-i-kamery.md](docs/02-organizaciya-i-kamery.md) — типы узлов и ассоциативные камеры
-- [docs/03-obuchenie-i-predskazanie.md](docs/03-obuchenie-i-predskazanie.md) — обучение, прогноз, сенсоры колебаний
-- [docs/04-ustoychivost-i-vosstanovlenie.md](docs/04-ustoychivost-i-vosstanovlenie.md) — устойчивость, ограничения, источники
+- [Содержание](docs/README.md)
+- [Общий принцип и оптические каналы](docs/01-svetovye-kanaly.md)
+- [Организация грибницы и ассоциативные камеры](docs/02-organizaciya-i-kamery.md)
+- [Обучение, предсказание и сейсмочувствительность](docs/03-obuchenie-i-predskazanie.md)
+- [Устойчивость, восстановление и ограничения](docs/04-ustoychivost-i-vosstanovlenie.md)
+- [Библиография](docs/istochniki.md)
