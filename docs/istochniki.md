@@ -10,6 +10,8 @@
 - [Спецификация кварцевого волокна SM400](https://www.thorlabs.com/single-mode-fcpc-fiber-optic-patch-cables)
 - [Отражатель и линза светового органа *Euprymna scolopes*](https://pmc.ncbi.nlm.nih.gov/articles/PMC1772794/)
 - [Полые капиллярные волноводы: масштабирование потерь λ²/a³](https://www.rp-photonics.com/hollow_core_fibers_and_capillaries.html)
+- [Затухание и моды полых диэлектрических волноводов: модель Маркатили–Шмельцера](https://opg.optica.org/ao/abstract.cfm?uri=ao-32-27-5302)
+- [Обзор полых волноводов: потери в единицы дБ/м и закон 1/a³](https://www.slac.stanford.edu/grp/arb/tn/arbvol3/ARDB286.pdf)
 
 ## Ризоморфы и минерализация
 
@@ -27,6 +29,8 @@
 
 - [Люциферин и люцифераза светящихся грибов](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294908/)
 - [Родопсиновое восприятие зелёного света у *Blastocladiella emersonii*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4046227/)
+- [Канальный родопсин ChR2: одиночная проводимость ≈50 фС, открытие быстрее 1 мс](https://pmc.ncbi.nlm.nih.gov/articles/PMC283525/)
+- [Зелёные канальные родопсины ChRGR и C1V1: τ_off около 20 и 200 мс](https://www.nature.com/articles/s41598-023-34687-7)
 - [Кальциевые фотопротеины акворин, обелин и клитин](https://journals.physiology.org/doi/full/10.1152/physrev.1999.79.4.1089)
 - [Регенерация фотопротеина акворина](https://www.nature.com/articles/256236a0)
 - [Пики жёлтого и оранжевого свечения люцифераз жука-щелкуна](https://pubmed.ncbi.nlm.nih.gov/2655091/)
