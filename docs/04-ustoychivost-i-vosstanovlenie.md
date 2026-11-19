@@ -76,3 +76,6 @@
 - [Удельные приросты показателя преломления](https://www.malvernpanalytical.com/en/learn/knowledge-center/insights/refractive-index-increment-dndc) — для полисахаридов в воде в среднем 0,15 мл/г.
 - [Полифосфат в вакуолях *Neurospora crassa*](https://jb.asm.org/content/142/3/945.full.pdf) — более 78 % неорганического полифосфата в вакуолях, там же около 97 % пула аргинина, орнитина и лизина, концентрирование в сотни раз.
 - [Полифосфат как запас фосфора у дрожжей и грибов](https://ftp.soest.hawaii.edu/dkarl/misc/dave/DOP/New%20papers%20for%20Refs/2000AnnRevMicrobiol54-709-734-Kulaev.pdf) — волютиновые гранулы, гидролиз полифосфата при осмотическом стрессе.
+- [Биолинзы из дрожжевых клеток при изменении формы вакуоли](https://advanced.onlinelibrary.wiley.com/toc/21951071/12/18) — крупная вакуоль имеет показатель ниже окружающей цитоплазмы (1,345 против 1,39) и работает как отрицательная линза.
+- [Осморегуляция дрожжей: глицерин](https://www.researchgate.net/publication/362501608_Yeast_osmoregulation_-_glycerol_still_in_pole_position) — накопление глицерина и трегалозы при плавной осмоадаптации с сохранением тургора.
+- [Среда с подстроенным показателем преломления: йодиксанол](https://www.protocols.io/view/refractive-index-adjusted-imaging-medium-high-ri-i-dg753zq6.pdf) — способы согласования показателей внутриклеточной и внешней среды.
