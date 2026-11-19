@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Пересчёт оптических и энергетических оценок для концепции «Фотохимический разум грибницы».
+"""Пересчёт оптических и энергетических оценок грибницы с фотогифами.
 
-Печатает таблицы, приведённые в docs/09-istochniki-i-velichiny.md.
-Зависимостей нет — только стандартная библиотека.
+Меняйте константы профиля ниже — таблицы пересчитаются.
+Зависимостей нет, только стандартная библиотека.
 
 Использование:
     python3 tools/fotogify_calc.py
@@ -13,7 +13,7 @@ from __future__ import annotations
 import math
 
 # --------------------------------------------------------------------------
-# Рабочий профиль. Меняйте здесь — все таблицы пересчитаются.
+# Профиль. Меняйте здесь — все таблицы пересчитаются.
 # --------------------------------------------------------------------------
 N_CORE = 1.375          # сердцевина (осветлённая цитоплазма)
 N_CLAD = 1.335          # оболочка / низкоплотная стенка
@@ -99,13 +99,13 @@ def hr(title: str) -> None:
 
 
 def main() -> None:
-    print("Рабочий профиль")
+    print("Профиль")
     print(f"  n_core={N_CORE}  n_clad={N_CLAD}  n_wall={N_WALL}")
     print(f"  NA={na():.3f}  delta={(N_CORE - N_CLAD) / N_CORE:.4f}  "
           f"aperture={math.degrees(math.asin(na())):.1f} deg")
     print(f"  lambda={LAMBDA_NM:.0f} nm  E_photon={photon_energy_j():.3e} J")
 
-    hr("Диаметр, моды, изгиб (таблица 16.3)")
+    hr("Диаметр, моды, изгиб")
     print(f"{'a,um':>6} {'d,um':>6} {'V':>7} {'мод':>7} "
           f"{'Lc,um':>7} {'Rc,um':>8} {'роль':>22}")
     roles = {0.5: "одиночная мода", 1: "локальные петли", 2: "межместные связи",
@@ -114,7 +114,7 @@ def main() -> None:
         print(f"{a:6.1f} {2*a:6.1f} {v_number(a):7.2f} {n_modes(a):7.1f} "
               f"{beat_length_um(a):7.3f} {critical_radius_um(a):8.1f} {roles[a]:>22}")
 
-    hr("Бюджет звена (таблица 16.4)")
+    hr("Бюджет звена")
     total = (LOSS_INPUT_DB + LOSS_PROP_MM_DB + LOSS_BEND_DB +
              LOSS_SPLIT_DB + LOSS_EXIT_DB + LOSS_DETECT_DB)
     for label, val in (("ввод в моду", LOSS_INPUT_DB),
@@ -128,7 +128,7 @@ def main() -> None:
     print(f"  {'бюджет звена':<24} {BUDGET_SECTION_DB:5.2f} дБ "
           f"(запас {BUDGET_SECTION_DB - total:.2f} дБ)")
 
-    hr("ARROW: толщина стенки (таблица 16.1)")
+    hr("ARROW: толщина стенки")
     for m in range(3):
         print(f"  m={m}: t={arrow_wall_nm(m):.0f} нм")
 
@@ -140,13 +140,13 @@ def main() -> None:
     print(f"  дисперсия: {(N_CORE / C) * ((N_CORE - N_CLAD) / N_CORE) * 1e9:.4f} нс/м")
     print(f"  рэлей 480->590 нм: x{(590 / 480) ** 4:.3f}")
 
-    hr("Стоимость символа (раздел 13.7)")
+    hr("Стоимость символа")
     print(f"{'порог дБ':>9} {'фотонов':>12} {'АТФ':>12} {'пДж':>9}")
     for budget in (15, 20, 25, 30):
         emitted, atp, energy = symbol_cost_pj(budget_db=budget)
         print(f"{budget:9d} {emitted:12.2e} {atp:12.2e} {energy:9.2f}")
 
-    hr("Задержка узла (раздел 13.6)")
+    hr("Задержка узла")
     print(f"  свет, 1 м в цитоплазме: {1.0 / (C / N_CORE) * 1e9:.1f} нс")
     for lo, hi, label in ((0.2, 2.0, "один узел"),
                           (2.0, 60.0, "местная петля 1 см"),
