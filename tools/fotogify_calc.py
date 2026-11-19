@@ -32,8 +32,10 @@ LOSS_EXIT_DB = 0.1
 LOSS_DETECT_DB = 3.0
 
 # фотонные оценки
-QY = 0.05               # квантовый выход биолюминесценции (допущение)
-ATP_PER_PHOTON = 3.0    # молекул АТФ на один излучаемый фотон (минимум)
+# Светлячковая люцифераза: 1 фотон на 1 молекулу АТФ, квантовый выход 0,41.
+QY = 0.41               # квантовый выход (Ando et al., 2007; прежняя оценка 0,88)
+ATP_PER_PHOTON = 1.0    # прямое сопряжение с АТФ у светлячкового типа
+ATP_REGEN = 2.0         # регенерация люциферина, молекул АТФ на цикл
 J_PER_ATP = 8.3e-20     # ≈ 50 кДж/моль
 N_DETECTOR = 300        # фотонов на детектор для надёжного различения
 
@@ -82,14 +84,18 @@ def photon_energy_j(lam_nm: float = LAMBDA_NM) -> float:
     return H * C / (lam_nm * 1e-9)
 
 
-def symbol_cost_pj(n_detector: int = N_DETECTOR, budget_db: float = 20.0,
+def symbol_cost_fj(n_detector: int = N_DETECTOR, budget_db: float = 20.0,
                    qy: float = QY) -> tuple[float, float, float]:
-    """Возвращает (фотонов на выходе, молекул АТФ, энергия в пДж)."""
+    """Возвращает (фотонов на выходе, молекул АТФ, энергия в фДж).
+
+    Светлячковый тип: событие сопряжено с АТФ напрямую, поэтому число
+    молекул АТФ равно числу реакционных циклов, а не делится на выход.
+    """
     emitted = n_detector * 10 ** (budget_db / 10)
-    photochemical = emitted / qy
-    atp = photochemical * ATP_PER_PHOTON
-    energy_pj = atp * J_PER_ATP * 1e12
-    return emitted, atp, energy_pj
+    cycles = emitted / qy
+    atp = cycles * ATP_PER_PHOTON + cycles * ATP_REGEN
+    energy_fj = atp * J_PER_ATP * 1e15
+    return emitted, atp, energy_fj
 
 
 def hr(title: str) -> None:
@@ -140,11 +146,20 @@ def main() -> None:
     print(f"  дисперсия: {(N_CORE / C) * ((N_CORE - N_CLAD) / N_CORE) * 1e9:.4f} нс/м")
     print(f"  рэлей 480->590 нм: x{(590 / 480) ** 4:.3f}")
 
-    hr("Стоимость символа")
-    print(f"{'порог дБ':>9} {'фотонов':>12} {'АТФ':>12} {'пДж':>9}")
-    for budget in (15, 20, 25, 30):
-        emitted, atp, energy = symbol_cost_pj(budget_db=budget)
-        print(f"{budget:9d} {emitted:12.2e} {atp:12.2e} {energy:9.2f}")
+    hr("Стоимость символа (светлячковый тип, 1 АТФ/фотон, QY=0.41)")
+    print(f"{'порог дБ':>9} {'фотонов':>12} {'АТФ':>12} {'фДж':>10}")
+    for budget in (6, 10, 15, 20):
+        emitted, atp, energy = symbol_cost_fj(budget_db=budget)
+        print(f"{budget:9d} {emitted:12.2e} {atp:12.2e} {energy:10.3f}")
+
+    hr("Сравнение с потенциалом действия")
+    for atp in (1e4, 1e5, 1e6):
+        print(f"  ПД {atp:9.0e} АТФ = {atp * J_PER_ATP * 1e15:8.3f} фДж")
+
+    hr("Чувствительность химического метода (статья)")
+    for label, grams in (("1 фг/клетка", 1e-15), ("0.1 пг/мл", 0.1e-12)):
+        mol = grams / 507.2 * 6.02214076e23
+        print(f"  {label:<14} = {mol:.2e} молекул АТФ")
 
     hr("Задержка узла")
     print(f"  свет, 1 м в цитоплазме: {1.0 / (C / N_CORE) * 1e9:.1f} нс")
