@@ -28,6 +28,7 @@
 - [Люциферин и люцифераза светящихся грибов](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294908/)
 - [Родопсиновое восприятие зелёного света у *Blastocladiella emersonii*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4046227/)
 - [Кальциевые фотопротеины акворин, обелин и клитин](https://journals.physiology.org/doi/full/10.1152/physrev.1999.79.4.1089)
+- [Регенерация фотопротеина акворина](https://www.nature.com/articles/256236a0)
 - [Пики жёлтого и оранжевого свечения люцифераз жука-щелкуна](https://pubmed.ncbi.nlm.nih.gov/2655091/)
 - [Цветовая модуляция грибной биолюминесценции](https://www.science.org/doi/pdf/10.1126/sciadv.1602847)
 - [Сине-фиолетовая биолюминесценция *Polycirrus*](https://www.nature.com/articles/s41598-021-98105-6)
