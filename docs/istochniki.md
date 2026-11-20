@@ -63,3 +63,18 @@
 - [Parise AG. An investigation into the cognitive ecology and electrophysiology of fungi and plants (дисс., University of Reading, 2025)](https://centaur.reading.ac.uk/127343/13/PARISE%20_thesis_Andre%20Parise_Redacted.pdf)
 - [Microelectrode array measurements of fungal mycelium reveal growth-associated electrical activity (Ablonczy et al., 2026)](https://rd.springer.com/content/pdf/10.1557/s43579-026-01041-7.pdf)
 - [Sustainable memristors from shiitake mycelium for high-frequency bioelectronics (LaRocco et al., PLOS One, 2025)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965)
+
+## Симбиоз, культивирование и диагностика
+
+- [How to build a lichen: from metabolite release to symbiotic interplay (New Phytologist, 2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10952756/)
+- [Rediscovery of a lost model fungus (*Geosiphon pyriforme*) highlights the origin of mycorrhizal symbioses (Malar et al., Current Biology, 2021)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7613410/)
+- [Endohyphal bacteria; the prokaryotic modulators of host fungal biology](https://www.sciencedirect.com/science/article/abs/pii/S1749461318300435)
+- [Genomic insights reveal community structure of endohyphal bacteria and viruses (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12297863/)
+- [Mycorrhiza helper bacteria (Frey-Klett, Garbaye, Tarkka, New Phytologist, 2007)](https://nph.onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2007.02191.x)
+- [Hyphosphere bacterial recruitment and *Streptomyces* D1 (Zhang et al., Microbiome, 2024)](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-024-01811-2)
+- [Arbuscular mycorrhizal fungal highways (2024)](https://www.sciencedirect.com/science/article/pii/S0038071724003948)
+- [Surface sensing and Pth11/CFEM GPCRs in *Magnaporthe oryzae* (Wilson et al., PLoS One, 2011)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3024261/)
+- [Strigolactones and pre-contact host recognition by AM fungi (Paszkowski, New Phytologist, 2006)](https://nph.onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2006.01840.x)
+- [Fungal volatile organic compounds (VOCs) in microbial interactions (Werner et al., Appl Microbiol Biotechnol, 2016)](https://pubmed.ncbi.nlm.nih.gov/27638017/)
+- [*Candida albicans* sensing of *Pseudomonas aeruginosa* 3-oxo-C12-HSL (Hogan, Vik, Kolter, Mol Microbiol, 2004)](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2958.2004.04349.x)
+- [Greetings from virologists to mycologists: mycoviruses and vegetative incompatibility (Mycoscience, 2024)](https://www.jstage.jst.go.jp/article/mycosci/65/1/65_MYC616/_html/-char/en)
