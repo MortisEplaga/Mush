@@ -79,3 +79,14 @@
 63. [Миковирусы и вегетативная несовместимость (Mycoscience, 2024)](https://www.jstage.jst.go.jp/article/mycosci/65/1/65_MYC616/_html/-char/en)
 64. [Эргоалкалоиды подавляют фуражировку слизевика *Physarum polycephalum*](https://pmc.ncbi.nlm.nih.gov/articles/PMC13417008/)
 65. [Популяционная динамика в пространственной микробной экосистеме с *Physarum polycephalum*](https://pmc.ncbi.nlm.nih.gov/articles/PMC8416962/)
+
+### Оценка и выбор маршрута
+
+66. Wullschleger, Loewith & Hall. *TOR signaling in growth and metabolism*. Cell 124, 471–484 (2006).
+67. Rolland, Winderickx & Thevelein. *Glucose-sensing and -signalling mechanisms in yeast*. Trends Biochem Sci 27, 501–508 (2002).
+68. Goldbeter & Koshland. *An amplified sensitivity arising from covalent modification in biological systems*. PNAS 78, 6840–6844 (1981).
+69. Jennings. *Translocation of solutes in fungi*. Biol Rev 62, 215–243 (1987).
+70. Bebber et al. *Biological solutions to transport network design*. Proc R Soc B 274, 2307–2315 (2007).
+71. Tero et al. *Rules for biologically inspired adaptive network design*. Science 327, 439–442 (2010).
+72. Izhikevich. *Solving the distal reward problem through linkage of STDP and dopamine signaling*. Cereb Cortex 17, 2443–2452 (2007).
+73. Frémaux & Gerstner. *Neuromodulated spike-timing-dependent plasticity, and theory of three-factor learning rules*. Front Neural Circuits 9, 85 (2016).
