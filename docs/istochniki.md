@@ -78,3 +78,5 @@
 - [Fungal volatile organic compounds (VOCs) in microbial interactions (Werner et al., Appl Microbiol Biotechnol, 2016)](https://pubmed.ncbi.nlm.nih.gov/27638017/)
 - [*Candida albicans* sensing of *Pseudomonas aeruginosa* 3-oxo-C12-HSL (Hogan, Vik, Kolter, Mol Microbiol, 2004)](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2958.2004.04349.x)
 - [Greetings from virologists to mycologists: mycoviruses and vegetative incompatibility (Mycoscience, 2024)](https://www.jstage.jst.go.jp/article/mycosci/65/1/65_MYC616/_html/-char/en)
+- [Ergot alkaloids affect foraging activity of the slime mold *Physarum polycephalum* (PMC13417008)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13417008/)
+- [Complex population dynamics in a spatial microbial ecosystem with *Physarum polycephalum* (PMC8416962)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8416962/)
