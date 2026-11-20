@@ -12,6 +12,7 @@
 - [Полые капиллярные волноводы: масштабирование потерь λ²/a³](https://www.rp-photonics.com/hollow_core_fibers_and_capillaries.html)
 - [Затухание и моды полых диэлектрических волноводов: модель Маркатили–Шмельцера](https://opg.optica.org/ao/abstract.cfm?uri=ao-32-27-5302)
 - [Обзор полых волноводов: потери в единицы дБ/м и закон 1/a³](https://www.slac.stanford.edu/grp/arb/tn/arbvol3/ARDB286.pdf)
+- [Tapetum lucidum: адаптация сетчатки к слабому свету; отражатель из кристаллов гуанина](https://onlinelibrary.wiley.com/doi/10.1111/ahe.70042)
 
 ## Ризоморфы и минерализация
 
@@ -31,6 +32,8 @@
 - [Родопсиновое восприятие зелёного света у *Blastocladiella emersonii*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4046227/)
 - [Канальный родопсин ChR2: одиночная проводимость ≈50 фС, открытие быстрее 1 мс](https://pmc.ncbi.nlm.nih.gov/articles/PMC283525/)
 - [Зелёные канальные родопсины ChRGR и C1V1: τ_off около 20 и 200 мс](https://www.nature.com/articles/s41598-023-34687-7)
+- [Кальций-проницаемый канальный родопсин CatCh: усиленный Ca²⁺-ток и ~70-кратная светочувствительность](https://www.nature.com/articles/nn.2776)
+- [Кальций-проницаемые канальные родопсины CapChR1 и CapChR2](https://pmc.ncbi.nlm.nih.gov/articles/PMC9772239/)
 - [Кальциевые фотопротеины акворин, обелин и клитин](https://journals.physiology.org/doi/full/10.1152/physrev.1999.79.4.1089)
 - [Регенерация фотопротеина акворина](https://www.nature.com/articles/256236a0)
 - [Пики жёлтого и оранжевого свечения люцифераз жука-щелкуна](https://pubmed.ncbi.nlm.nih.gov/2655091/)
@@ -52,3 +55,11 @@
 - [Роль Spitzenkörper в росте гиф](https://www.cell.com/trends/microbiology/fulltext/S0966-842X(17)30207-2)
 - [Привыкание у миксомицета *Physarum polycephalum*](https://royalsocietypublishing.org/rspb/article/283/1829/20160446/78071/Habituation-in-non-neural-organisms-evidence-from)
 - [Нейромодулируемая пластичность и трёхфакторные правила обучения](https://pmc.ncbi.nlm.nih.gov/articles/PMC4717313/)
+- [Local calcium signal transmission in mycelial network exhibits decentralized stress responses (Itani et al., PNAS Nexus, 2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9991499/)
+- [Memory inception and preservation in slime moulds: the quest for a common mechanism (Boussard et al., Phil Trans R Soc B, 2019)](https://europepmc.org/article/MED/31006372)
+- [Adaptive behaviour and learning in slime moulds: the role of oscillations (Boussard et al., Phil Trans R Soc B, 2021)](https://europepmc.org/article/MED/33487112)
+- [Boussard A. Apprentissage chez *Physarum polycephalum*: méthodes de quantification des comportements et conditions de mémorisation (дисс., Toulouse, 2021)](https://theses.hal.science/tel-04886194)
+- [The p21-activated protein kinase-related kinase Cla4 is a coincidence detector of signaling by Cdc42 and phosphatidylinositol 4-phosphate (Carlton et al., JBC, 2004)](https://www.jbc.org/article/S0021-9258(19)75530-6/fulltext)
+- [Parise AG. An investigation into the cognitive ecology and electrophysiology of fungi and plants (дисс., University of Reading, 2025)](https://centaur.reading.ac.uk/127343/13/PARISE%20_thesis_Andre%20Parise_Redacted.pdf)
+- [Microelectrode array measurements of fungal mycelium reveal growth-associated electrical activity (Ablonczy et al., 2026)](https://rd.springer.com/content/pdf/10.1557/s43579-026-01041-7.pdf)
+- [Sustainable memristors from shiitake mycelium for high-frequency bioelectronics (LaRocco et al., PLOS One, 2025)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328965)
