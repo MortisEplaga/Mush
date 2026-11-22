@@ -90,3 +90,9 @@
 71. Tero et al. *Rules for biologically inspired adaptive network design*. Science 327, 439–442 (2010).
 72. Izhikevich. *Solving the distal reward problem through linkage of STDP and dopamine signaling*. Cereb Cortex 17, 2443–2452 (2007).
 73. Frémaux & Gerstner. *Neuromodulated spike-timing-dependent plasticity, and theory of three-factor learning rules*. Front Neural Circuits 9, 85 (2016).
+74. [Lsi1 — силикатный транспортер-канал ввода в рисе (Ma et al., Nature 440, 688–691)](https://doi.org/10.1038/nature04590)
+75. [Lsi2 — силикатный транспортер-эффлюкс в рисе (Ma et al., Nature 448, 39–42)](https://doi.org/10.1038/nature05964)
+76. [Семейство силикатных транспортеров диатомей SIT (Hildebrand et al., Nature 385, 688–689)](https://doi.org/10.1038/385688a0)
+77. [Биосинтез коэлентеразина в глубоководного копепода *Metridia pacifica* (Oba et al., Biochem. Biophys. Res. Commun. 390, 684–688)](https://doi.org/10.1016/j.bbrc.2009.10.028)
+78. [de novo-биосинтез коэлентеразина у книдарий (Bessho-Uehara et al., iScience 23, 101859)](https://doi.org/10.1016/j.isci.2020.101859)
+79. [Биосинтез ретиналя у грибов: каротиноид-оксигеназа CarX *Fusarium fujikuroi* (Prado-Cabrero et al., Eukaryotic Cell 6, 650–657)](https://doi.org/10.1128/ec.00392-06)
